@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <title> My Account </title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-    <header>
-        <a href="index.html">
-            <img src="img/return.png" alt="Return">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Minha Conta</title>
+    <link rel="stylesheet" href="tela_perfil.css">
+  </head>
+
+  <body>
+    <div class="celular">
+
+      <header>
+        <a href="index.html" class="voltar">
+          <img src="img/return.png" alt="Voltar">
         </a>
-        <h1>
-            My Account
-        </h1>
-    </header>
-        <main>
-            <img src="img/imagem_perfil.png" alt="Imagem de Perfil">
-            <h2>Nome de Usuário</h2>
-            <h3>Bio</h3>
-            <ul>
-            <li><a href="tela_settings.html"> Configurações </a></li>
-            <li><a href="tela_activity.html"> Atividade </a></li>
-            <li><a href="tela_statistic.html"> Estatísticas </a></li>
-            </ul>
-        </main>
-    </body>
+
+        <h1>MINHA CONTA</h1>
+
+        <a href="index.html" class="home">
+            <img src="img/home.png" alt="Home">
+        </a>
+      </header>
+
+      <main>
+        <div class="perfil-section">
+          <div class="foto-editar">
+            <div class="foto-perfil">
+              <p>Editar foto</p>
+            </div>
+            <div class="botoes-editar">
+              <button>Editar nome</button>
+              <button>Editar bio</button>
+            </div>
+          </div>
+        </div>
+
+        <ul class="menu">
+          <li>
+            <a href="tela_settings.html">
+              <img src="img/icon_config.png" alt="Configurações">
+              <span>CONFIGURAÇÕES</span>
+            </a>
+          </li>
+          <li>
+            <a href="tela_activity.html">
+              <img src="img/icon_activity.png" alt="Atividade">
+              <span>MINHA ATIVIDADE</span>
+            </a>
+          </li>
+          <li>
+            <a href="tela_statistic.html">
+              <img src="img/icon_stats.png" alt="Estatísticas">
+              <span>ESTATÍSTICAS</span>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
 </html>

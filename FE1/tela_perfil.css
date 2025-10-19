@@ -1,0 +1,152 @@
+/* ======== Fundo ======== */
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ /* ======== Fundo ======== */
+  .celular {
+    width: 360px;
+    height: 640px;
+    background-color: #8c8c8c;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+    margin-top: 1rem;
+  }
+  
+ /* ======== Cabeçalho ======== */
+  header {
+    background-color: #b30000;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 2px solid black;
+  }
+  
+  /* Título do cabeçalho */
+  header h1 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+  .voltar {
+    position: absolute;
+    left: 1rem;
+  }
+
+
+  .home{
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .voltar img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .home img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  
+  /* ======== Perfil e botões ======== */
+  .perfil-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .foto-editar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Caixa preta de "Editar foto" */
+  .foto-perfil {
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+  
+  /* Botões "Editar nome" e "Editar bio" */
+  .botoes-editar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  
+  .botoes-editar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+    width: 110px;
+  }
+  
+  .botoes-editar button:hover {
+    background-color: #333;
+  }
+  
+  /* ======== Menu principal ======== */
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 80%;               /* todos do mesmo tamanho */
+    background-color: #b30000;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 2px solid black;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .menu li a:hover {
+    background-color: #ff0000;
+    transform: scale(1.02);
+  }
+  
+  /* Ícones amarelos */
+  .menu li img {
+    width: 2rem;
+    height: 2rem;
+    filter: brightness(0) saturate(100%) invert(79%) sepia(94%) saturate(2593%) hue-rotate(8deg) brightness(97%) contrast(104%);
+  }
+
+  
