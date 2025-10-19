@@ -1,0 +1,43 @@
+
+header{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-bottom: .1rem solid black;
+}
+
+.celular {
+  width: 360px;
+  height: 640px;
+  overflow-x: auto;
+  overflow-y: auto;
+  position: relative;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1rem;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.pesquisa{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+}
+.perfil{
+    position: absolute;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+}
