@@ -54,16 +54,8 @@ body {
     right: 0;
   }
   
-  .pesquisa img{
+  .pesquisa img, .perfil img{
     width: 2.2rem;       
-    height: 2.2rem;
-    border-radius: 50%;   
-    object-fit: cover;    
-    border: 2px solid white; 
-  }
-   
-  .perfil img {
-    width: 2.2rem;
     height: 2.2rem;
     border-radius: 50%;   
     object-fit: cover;    
@@ -107,7 +99,7 @@ body {
     border: 2px solid black;
     flex-shrink: 0;
   }
-  
+  /* Estilização da barra de rolagem horizontal */
   ul::-webkit-scrollbar {
     height: 6px;
   }
