@@ -45,17 +45,12 @@ body {
     right: 1rem;
   }
   
-  .voltar img {
-    width: 1.6rem;
-    height: 1.6rem;
-  }
-
-  .home img {
+  .voltar img, .home img {
     width: 1.6rem;
     height: 1.6rem;
   }
   
-  .perfil-section {
+  .centralizar-perfil {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
@@ -89,17 +84,10 @@ body {
   .botoes-editar button {
     background-color: black;
     color: white;
-    border: none;
     padding: 0.5rem 0.8rem;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 0.9rem;
-    transition: background-color 0.2s;
-    width: 110px;
-  }
-  
-  .botoes-editar button:hover {
-    background-color: #333;
+    width: 7rem;
   }
   
   .menu {
@@ -122,22 +110,14 @@ body {
     color: white;
     font-weight: bold;
     font-size: 1rem;
-    text-decoration: none;
     padding: 0.8rem 1rem;
     border-radius: 8px;
     border: 2px solid black;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-  }
-  
-  .menu li a:hover {
-    background-color: #ff0000;
-    transform: scale(1.02);
   }
   
   .menu li img {
     width: 2rem;
     height: 2rem;
-    filter: brightness(0) saturate(100%) invert(79%) sepia(94%) saturate(2593%) hue-rotate(8deg) brightness(97%) contrast(104%);
   }
 
   
