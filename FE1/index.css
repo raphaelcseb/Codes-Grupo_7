@@ -6,12 +6,12 @@ body {
     padding: 0;
   }
   
-  /* Moldura do “celular” */
+  /* Moldura do celular */
   .celular {
     width: 360px;
     height: 640px;
     overflow-y: auto;
-    background-color: #8c8c8c; /* cinza médio igual ao Figma */
+    background-color: #8c8c8c;
     position: relative;
     top: 1rem;
     left: 50%;
