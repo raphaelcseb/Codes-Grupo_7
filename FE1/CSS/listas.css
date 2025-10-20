@@ -105,6 +105,9 @@ footer img {
     width: 5rem;
 }
 
+.search_footer {
+    margin-top: 15rem;
+}
 .add {
     display: flex;
     flex-direction: row;
