@@ -28,6 +28,9 @@ header h1 {
   letter-spacing: 1px;
   text-align: center;
   white-space: nowrap; 
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
   
 .voltar {
@@ -78,4 +81,10 @@ main {
   font-size: 1rem;
   text-align: center;
   line-height: 1.05;
+}
+
+.descricao {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

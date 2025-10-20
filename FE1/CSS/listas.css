@@ -24,6 +24,9 @@ header {
 
 h1 {
     font-size: 2.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main {
@@ -40,6 +43,9 @@ h2 {
     background-color: #FF2C2C;
     font-size: 2rem;
     width: 50%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 ul {
@@ -48,6 +54,12 @@ ul {
     margin-top: 2rem;
     margin-bottom: 2rem;
     overflow: scroll;
+}
+
+.vertical {
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 li {
@@ -76,6 +88,9 @@ main img{
 .nome {
     border: 0.1rem solid black;
     padding: 0.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer {
@@ -90,6 +105,9 @@ footer img {
     width: 5rem;
 }
 
+.search_footer {
+    margin-top: 15rem;
+}
 .add {
     display: flex;
     flex-direction: row;
@@ -102,6 +120,9 @@ footer h3 {
     font-weight: bold;
     font-size: 2rem;
     margin: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .text_box {
