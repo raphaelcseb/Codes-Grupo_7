@@ -115,7 +115,7 @@ footer img {
     align-items: center;
 }
 
-footer h3 {
+.h3 {
     color:#FFDE21;
     font-weight: bold;
     font-size: 2rem;
@@ -124,6 +124,7 @@ footer h3 {
     font-weight: 400;
     font-style: normal;
 }
+
 
 .text_box {
     border: 0.1rem black;
