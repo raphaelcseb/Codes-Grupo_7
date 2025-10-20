@@ -1,22 +1,10 @@
 body {
-    background-color: #222; /* fundo fora do “celular” */
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  background-color: #898989;
+  flex-direction: column;
+  align-items: stretch;
+}
   
-  .celular {
-    width: 360px;
-    height: 640px;
-    overflow-y: auto;
-    background-color: #8c8c8c;
-    position: relative;
-    top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
-  }
+
   
   header {
     position: relative;
@@ -30,10 +18,10 @@ body {
   
   header h1 {
     color: black;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
   }
   
   .pesquisa, .perfil {
@@ -68,8 +56,8 @@ body {
   }
   
   main > a img {
-    width: 100px;
-    height: 140px;
+    width: 7rem;
+    height: 10rem;
     margin: 0.5rem;
     border: 2px solid black;
   }
@@ -94,8 +82,8 @@ body {
   }
   
   ul li img {
-    width: 80px;
-    height: 120px;
+    width: 5rem;
+    height: 8rem;
     border: 2px solid black;
     flex-shrink: 0;
   }
