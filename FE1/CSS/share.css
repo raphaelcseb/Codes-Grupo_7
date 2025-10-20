@@ -1,0 +1,70 @@
+body {
+    background-color: #898989;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.1rem solid black;
+    padding: 6rem;
+    margin-bottom: 2rem;
+    background-color: #950606;
+    flex-grow: 2;
+    align-items: center;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #FFDE21;
+    border: solid 0rem;
+    padding: 0.5rem;
+    background-color: #FF2C2C;
+    font-size: 2rem;
+    width: 50%;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: scroll;
+}
+
+li {
+    margin: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li img {
+    margin-bottom: 2rem;
+}
+
+li p {
+    font-size: 3rem;
+    color:white;
+}

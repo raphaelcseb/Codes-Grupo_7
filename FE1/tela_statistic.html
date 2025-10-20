@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <title> Statistic Panel </title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="tela_statistic.css">
-    </head>
-    <body>
-        <div class="celular">
+<head>
+  <meta charset="UTF-8" />
+  <title>Estatísticas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/tela_statistic.css" />
+</head>
+<body>
+  <div class="celular">
     <header>
-        <a href="tela_perfil.html" class="voltar">
-            <img src="img/return.png" alt="Return">
-        </a>
-        <h1>
-            Statistic Panel
-        </h1>
+      <a href="tela_perfil.html" class="voltar" aria-label="Voltar">
+        <img src="img/return.png" alt="Voltar">
+      </a>
+
+      <h1>ESTATÍSTICAS</h1>
+
+      <a href="index.html" class="home" aria-label="Home">
+        <img src="img/home.png" alt="Home">
+      </a>
     </header>
-        <main>
-            <h2>Filters</h2>
-            <h3>Period</h3>
-            <ul>
-                <li>1 Semana </li>
-                <li><a href="tela_statistic3months.html">3 Meses</a></li>
-                <li>6 meses</li>
-                <li>1 Ano</li>
-            </ul>
-            <h3>Gender</h3>
-            <ul>
-                <li>Ação</li>
-                <li>Terror</li>
-                <li>Romance</li>
-                <li>Comédia</li>
-                <li>Sci-Fi</li>
-            </ul>
-    <footer>
-        <a href="index.html">
-            <img src="img/home.png" alt="Home">
-        </a>
-    </footer>
-        </main>
+
+    <main>
+      <section class="filtros">
+        <h2 class="sec-title">FILTRAR POR PERÍODO</h2>
+
+        <div class="periodos">
+          <button class="periodo-btn">1 MÊS</button>
+          <button class="periodo-btn">3 MESES</button>
+          <button class="periodo-btn">6 MESES</button>
+          <button class="periodo-btn">1 ANO</button>
         </div>
-    </body>
+
+        <h2 class="sec-title">FILTRAR POR CATEGORIA</h2>
+
+        <div class="filtros-row">
+          <label class="select-wrap">
+            <select name="nota" id="nota">
+              <option>NOTA</option>
+              <option>9+</option>
+              <option>8+</option>
+              <option>7+</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="popularidade" id="popularidade">
+              <option>POPULARIDADE</option>
+              <option>Alta</option>
+              <option>Média</option>
+              <option>Baixa</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="genero" id="genero">
+              <option>GÊNERO</option>
+              <option>Ação</option>
+              <option>Aventura</option>
+              <option>Comédia</option>
+              <option>Drama</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="outro" id="outro">
+              <option>OUTRO</option>
+              <option>Idioma</option>
+              <option>País</option>
+            </select>
+          </label>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
 </html>

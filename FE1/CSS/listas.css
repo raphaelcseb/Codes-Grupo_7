@@ -1,0 +1,162 @@
+
+body {
+    background-color: #898989;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: #950606;
+    flex-grow: 2;
+    align-items: center;
+   
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h2 {
+    color: #FFDE21;
+    border: solid 0rem;
+    padding: 0.5rem;
+    background-color: #FF2C2C;
+    font-size: 2rem;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: scroll;
+}
+
+li {
+    margin: 1rem;
+    font-weight: bold;
+}
+
+header img{
+    height: 5rem;
+    width: 5rem;
+}
+
+main img{
+    height: 10rem;
+    width: 7.5rem;
+}
+
+.auto_suggestion {
+    height: 3rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.nome {
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    background-color:#FF2C2C;
+    align-items: center;
+}
+
+footer h3 {
+    color:#FFDE21;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.text_box {
+    border: 0.1rem black;
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.save {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color:#FF2C2C;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+.foto_nota {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.nota {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.nota h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    color: #FFDE21;
+    border: solid 0rem;
+    padding: 0.5rem;
+    background-color: #FF2C2C;
+    font-size: 2rem;
+    width: 50%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
