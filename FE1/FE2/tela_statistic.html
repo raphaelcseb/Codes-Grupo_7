@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Estatísticas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="CSS/reset.css">
+
+  <link rel="stylesheet" href="CSS/tela_statistic.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <a href="tela_perfil.html" class="voltar" aria-label="Voltar">
+        <img src="img/return.png" alt="Voltar">
+      </a>
+
+      <h1>ESTATÍSTICAS</h1>
+
+      <a href="index.html" class="home" aria-label="Home">
+        <img src="img/home.png" alt="Home">
+      </a>
+    </header>
+
+    <main>
+      <section class="filtros">
+        <h2 class="sec-title">FILTRAR POR PERÍODO</h2>
+
+        <div class="periodos">
+          <button class="periodo-btn">1 MÊS</button>
+          <a class="periodo-btn" href="tela_statistic3months.html">3 MESES</a>
+          <button class="periodo-btn">6 MESES</button>
+          <button class="periodo-btn">1 ANO</button>
+        </div>
+
+        <h2 class="sec-title">FILTRAR POR CATEGORIA</h2>
+
+        <div class="filtros-row">
+          <label class="select-wrap">
+            <select name="nota" id="nota">
+              <option>NOTA</option>
+              <option>9+</option>
+              <option>8+</option>
+              <option>7+</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="popularidade" id="popularidade">
+              <option>POPULARIDADE</option>
+              <option>Alta</option>
+              <option>Média</option>
+              <option>Baixa</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="genero" id="genero">
+              <option>GÊNERO</option>
+              <option>Ação</option>
+              <option>Aventura</option>
+              <option>Comédia</option>
+              <option>Drama</option>
+            </select>
+          </label>
+
+          <label class="select-wrap">
+            <select name="outro" id="outro">
+              <option>OUTRO</option>
+              <option>Idioma</option>
+              <option>País</option>
+            </select>
+          </label>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
