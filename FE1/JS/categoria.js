@@ -4,6 +4,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
     filmes = document.querySelectorAll('.filmes > li')
 
+    filme_lista = document.querySelector('.filmes')
+
+    lista_maior = document.querySelector('.lista')
+
+    estado = document.createElement('p')
+    
+    estado.innerHTML = 'Carregando recomendações...'
+
+    lista_maior.appendChild(estado)
+
+    estado.style.marginBottom = '3rem'
+
+    estado.style.marginLeft = '1rem'
+
+
     for (filme of filmes) {
             filme.style.display = 'none'
             }
@@ -12,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
         if (event.target.value == 'Viagem no tempo') {
             
+            estado.style.display = 'none'
+
             for (filme of filmes) {
             filme.style.display = 'flex'
             }
