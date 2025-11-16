@@ -123,3 +123,10 @@ footer img {
     font-style: normal;
 }
 
+ .perfil {
+    width: 4rem;       
+    height: 4rem;
+    border-radius: 50%;   
+    object-fit: cover;    
+    border: 0.1rem solid white; 
+  }

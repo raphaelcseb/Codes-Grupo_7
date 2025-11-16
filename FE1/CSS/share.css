@@ -62,6 +62,8 @@ li {
 
 li img {
     margin-bottom: 2rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 li p {
