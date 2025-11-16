@@ -59,7 +59,6 @@ ul {
 .vertical {
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 li {
@@ -206,3 +205,4 @@ h3 {
     object-fit: cover;    
     border: 0.1rem solid white; 
   }
+
