@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     nome_cat.addEventListener("input", (event) => {
     
-        if (event.target.value == 'Viagem no tempo') {
+        if (event.target.value == 'viagem no tempo') {
             
             estado.style.display = 'none'
 
